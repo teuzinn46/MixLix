@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5DC;
+}
+@font-face {
+    font-family: "bebas";
+    src: url(fonte/BebasNeue-Regular.ttf);
+}
+header{
+    background-color: #8B0000;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.nomeR{
+    font-size: 35px;
+    padding-top: 25px;
+    padding-left: 550px;
+    padding-right: 600px;
+    font-family: "bebas";
+    
+}
+.menor{
+    font-size: 25px;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.redes img{
+    width: 25px;
+    height: 25px;
+    margin-right: 100px;
+}
+.tik{
+    margin-top: 15px;
+}
+nav{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px
+}
+nav .c{
+    margin-bottom: 10px;
+}
+span {
+    position: relative;
+  }
+  
+span::before, span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #fc2f70;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+  
+span::before {
+    top: 0;
+    transform-origin: center right;
+  }
+  
+span:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+  }
+  
+span::after {
+    bottom: 0;
+    transform-origin: center left;
+  }
+  
+span:hover::after {
+    transform-origin: center right;
+    transform: scaleX(1);
+  }
+.linha{
+    width: 600px;
+    margin-left: 100px;
+    height: 2px;
+    background-color: #DAA520;
+}
+.tit1{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.text1{
+    margin-left: 100px;
+    font-size: 20px;
+    width: 900px;
+    margin-bottom: 50px;
+}
+.tit2{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    
+}
+.text2{
+    margin-left: 100px;
+    font-size: 20px;
+    width: 900px;
+    margin-bottom: 50px;
+}
+.tit3{
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.text3{
+    margin-left: 100px;
+    font-size: 20px;
+    width: 900px;
+    margin-bottom: 50px;
+}
+.avaTit1{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.caixa1{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 495px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    transition: transform 0.4s ease;
+}
+.caixa1:hover {
+    transform: scale(1.2); 
+  }
+.avaText1{
+    width: 400px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.caixa2{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 495px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    margin-top: 30px;
+    transition: transform 0.4s ease;
+}
+.caixa2:hover {
+    transform: scale(1.2); 
+  }
+.avaText2{
+    width: 400px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.caixa3{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 495px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    margin-top: 30px;
+    transition: transform 0.4s ease;
+}
+.caixa3:hover {
+    transform: scale(1.2); 
+  }
+.avaText3{
+    width: 400px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.caixa4{
+    width: 500px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 495px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: justify;
+    margin-top: 30px;
+    transition: transform 0.4s ease;
+}
+.caixa4:hover {
+    transform: scale(1.2); 
+  }
+.caixa4 h1{
+    padding-top: 20px;
+    padding-left: 120px;
+}
+.caixa4 p{
+    width: 400px;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+footer{
+    background-color: #8B0000;
+    /* margin-top: 80px; */
+    height: 150px;
+    color: white;
+}
+footer p{
+    margin-left: 350px;
+    padding-top: 37px;
+}
+.avaliacoes{
+    position: relative;
+    padding-bottom: 60px;
+}
+.avaliacoes::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('img/pexels-vanmalidate-769289.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); 
+    opacity: 0.4; 
+    z-index: -1; 
+  }
+
+
+
+  
+  

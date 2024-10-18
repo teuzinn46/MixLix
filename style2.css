@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5DC;
+}
+@font-face {
+    font-family: "bebas";
+    src: url(fonte/BebasNeue-Regular.ttf);
+}
+header{
+    background-color: #8B0000;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.nomeR{
+    font-size: 35px;
+    padding-top: 25px;
+    padding-left: 550px;
+    padding-right: 600px;
+    font-family: "bebas";
+    
+}
+.menor{
+    font-size: 25px;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.redes img{
+    width: 25px;
+    height: 25px;
+    margin-right: 100px;
+}
+.tik{
+    margin-top: 15px;
+}
+nav{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px
+}
+nav .c{
+    margin-bottom: 10px;
+}
+span {
+    position: relative;
+  }
+  
+span::before, span::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #fc2f70;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+  
+span::before {
+    top: 0;
+    transform-origin: center right;
+  }
+  
+span:hover::before {
+    transform-origin: center left;
+    transform: scaleX(1);
+  }
+  
+span::after {
+    bottom: 0;
+    transform-origin: center left;
+  }
+  
+span:hover::after {
+    transform-origin: center right;
+    transform: scaleX(1);
+  }
+ .cardapio h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 35px;
+    margin-bottom: 25px;
+ } 
+ .cardapio p{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+ }
+ .chato{
+    text-align: center;
+    margin-top: 80px;
+    
+ }
+ .chato a{
+    color: black;
+    transition: font-size 0.3s ease;
+ }
+ .chato a:hover{
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+ footer{
+    background-color: #8B0000;
+    margin-top: 100px;
+    height: 150px;
+    color: white;
+}
+footer p{
+    margin-left: 350px;
+    padding-top: 37px;
+}
+.contato p{
+
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.email{
+    margin-top: 10px;
+    color: black;
+    transition: font-size 0.3s ease;
+}
+.chato2{
+    margin-top: 5px;
+    text-align: center;
+}
+.email:hover{
+    font-size: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
